@@ -1,0 +1,26 @@
+// To initialize git we write 
+    git init
+
+// To list hidden files 
+    ls -a
+
+// To see files that are in staging Area
+    git status 
+
+// To add files to staging Area
+    git add "<filename>"
+
+// To remove files from staging Area (Unstage)
+    git rm --cached "<filename>" 
+
+// To commit the staging Area to the local repository and add commit message (Write commit message in present tense)
+    git commit -m "<message>"
+
+// To check what the commit message made 
+    git log
+
+// To add all the files to the staging Area
+    git add .
+
+// To revert the changed file to the last version
+    git checkout "<filename>"
