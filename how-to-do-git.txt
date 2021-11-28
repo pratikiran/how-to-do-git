@@ -41,3 +41,5 @@
     git merge "<branchname>" 
 	// This will open vim editor - to simply save and quit 
 	    :q!
+// To learn git branching and challenge
+    https://learngitbranching.js.org/
