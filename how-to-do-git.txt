@@ -27,3 +27,17 @@
 
 // To revert the changed file to the last version
     git checkout "<filename>"
+
+// To make new branch
+    git branch "<branchname>"
+
+// To check which branch you are on
+    git branch
+
+// To switch between branches
+    git checkout "<branchname>"
+
+// To merge two branches - first you should be in the branch 
+    git merge "<branchname>" 
+	// This will open vim editor - to simply save and quit 
+	    :q!

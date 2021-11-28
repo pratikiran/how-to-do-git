@@ -1,3 +1,4 @@
 // Crerate a new repository by clicking on the plus button.
 
-//and follow the the steps provided in the new repository.
+// First add the files to area and commit and push to github 
+    git push origin main -u
