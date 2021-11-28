@@ -13,6 +13,9 @@
 // To remove files from staging Area (Unstage)
     git rm --cached "<filename>" 
 
+// To remove all the files from staging Area (Unstage)
+    git rm --cached -r .
+
 // To commit the staging Area to the local repository and add commit message (Write commit message in present tense)
     git commit -m "<message>"
 
